@@ -1,19 +1,20 @@
 # Hilfe . txt
+---
 
 ### SDL bugs on Kali Linux
----
+
 
 #### Display resolution bug
 ##### Problem: 
 
 After starting sdl via cmd cd SilentDragonLite ./SilentDragonLite <br/ >
-or mouseclick in files SDL starts but doesnt display the full programwindow, visible are: Terms of service, <br/ >
-Create passphrase, not visible: buttons which are on the bottom left like "Import Seed" or "New Wallet" even with the VM using the whole screen.
+or mouseclick in files, SDL runs but doesnt display the full programwindow, `visible:`<br/> Terms of service <br/ >
+Create passphrase<br/><br/>`not visible`:<br/>buttons which are on the bottom left like "Import Seed" <br/>or "New Wallet" even with the VM using the whole screen.
 
 ##### Solve:
 Change the resolution of your screen, now the y-axis from the screen is too small to display the whole SDL program we need to make it bigger, <br/ >
-go in the linux cmd promt. Open cmd and type xrandr, then type xrandr -s 7, 7 will be a format which was displayed before, chose a range between 1900:1300 <br/ >
-the y axis should be over 1200
+go in the linux cmd promt. Open cmd and type xrandr, then type xrandr -s 7, 7 will be a format which was displayed before, chose a range between 1900:1300.
+The y axis should be over 1200
 
 #### Mouse click bug
 ##### Prolem:
@@ -53,7 +54,7 @@ No answer for this problem yet.
 
 
 ### Compile SDL (SilentDragonLite) manual for windows-users who want to hide their SDL and HushChat on their PC via VM (Virtual machine)
----
+
 
 * install virtualbox like in the manuals for VM
 * We need to manually download all compiler packages for linux to install/compile SDL -->
@@ -71,8 +72,10 @@ Fatal error during changing the download link for qt5 via wget command --> forgo
 start with QT5, QT5 has no 
 <br/ >
 <br/ >
-### How to extract password/passphrases and metadata from old WLAN-connections using CMD
+
 ---
+### How to extract password/passphrases and metadata from old WLAN-connections using CMD
+
 
 #### for windows: 
 * ⊞(windows key) + r - opens a search window , then type cmd
@@ -84,7 +87,7 @@ start with QT5, QT5 has no
 * so if you re ever sleeping over at a friends and have access to their guest PC/account on PC and forgot their password,
 ##### use this tool to get your passphrase & log into the WLAN
 
-##### Python trash cmd to display it on your python shell if you are lazy
+#### Python trash cmd to display it on your python shell if you are lazy:
 ```Python
 import time
 
@@ -112,6 +115,7 @@ for manuels in b:
     print(manuels)
 
 ```
+---
 ### How to install KaliLinux on windows
 A short manual how to install KaliLinux for windows.
 
@@ -138,6 +142,7 @@ If you downloaded the basic cali linux installer it should be a .iso file, If yo
 * 8.) Installation process goes very quick if you have the .ovo , the program just quickly installs all basic configurations as default (timezone, keyboard type etc etc.)
 * 9.) To login into kali linux there is a small trick, the username and password by default are: username; kali - passphrase; kali
 
+---
 ### useful link for symbols
 Collection of Links I visit from time to time
 [Unicodesymbols_Collection_for_Python](https://unicode-table.com/en/html-entities/)
