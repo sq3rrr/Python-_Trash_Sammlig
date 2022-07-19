@@ -1,2 +1,2 @@
 # Python-_Trash_Sammlig
-Python trash sammlig, nutzlosi python dateie
+Python trash sammlig, nutzlosi python Dateie
